@@ -38,7 +38,7 @@ function messageFunction() {
           chatDiv += `
           <div class="chat-message agent-message bot-message">
             <div class="profile-pic">
-              <div class="profile-pic-area user-img"> <img src="/assets/images/robot-dark.svg" alt="Bot"> </div>
+              <div class="profile-pic-area user-img"> <img src="./images/robot-dark.svg" alt="Bot"> </div>
             </div>
             <div class="chat-message-content structured-message">
               <p><b>${message.body.additionalDetails.interactive.header.text}</b>
@@ -56,7 +56,7 @@ function messageFunction() {
           <div class="chat-message agent-message">
             <div class="profile-pic">
               <div class="profile-pic-area user-img">
-                <img src="/assets/images/robot-dark.svg" alt="bot"/>
+                <img src="./images/robot-dark.svg" alt="bot"/>
               </div>
             </div>
             <div class="chat-message-content">
@@ -76,7 +76,7 @@ function messageFunction() {
           <div class="chat-message user-message ">
             <div class="profile-pic">
                 <div class="profile-pic-area user-img">
-                  <img src="/assets/images/robot-dark.svg" alt="bot"/>
+                  <img src="./images/robot-dark.svg" alt="bot"/>
                 </div>
             </div>
             <div class="chat-message-content file-type-message image-type">
@@ -100,7 +100,7 @@ function messageFunction() {
           <div class="chat-message agent-message">
             <div class="profile-pic">
               <div class="profile-pic-area user-img">
-                <img src="/assets/images/robot-dark.svg" alt="bot"/>
+                <img src="./images/robot-dark.svg" alt="bot"/>
               </div>
             </div>
             <div class="chat-message-content">
@@ -124,12 +124,12 @@ function messageFunction() {
           <div class="chat-message agent-message">
             <div class="profile-pic">
               <div class="profile-pic-area user-img">
-                <img src="/assets/images/robot-dark.svg" alt="bot"/>
+                <img src="./images/robot-dark.svg" alt="bot"/>
               </div>
             </div>
             <div class="chat-message-content file-type-message contact-type">
             <span class="display-file contact-logo">
-            <img src="/assets/images/genaric.svg"></span>
+            <img src="./images/genaric.svg"></span>
             <div class="contact-inner">
                 <span class="card-label">${message.body.additionalDetails.fileName}</span>
                 <span class="card-description">
@@ -145,7 +145,7 @@ function messageFunction() {
           <div class="chat-message agent-message">
             <div class="profile-pic">
               <div class="profile-pic-area user-img">
-                <img src="/assets/images/robot-dark.svg" alt="bot"/>
+                <img src="./images/robot-dark.svg" alt="bot"/>
               </div>
             </div>
             <div class="chat-message-content">
@@ -168,7 +168,7 @@ function messageFunction() {
           chatDiv += `
           <div class="chat-message agent-message bot-message">
             <div class="profile-pic">
-                <div class="profile-pic-area user-img"> <img src="/assets/images/robot-dark.svg" alt="Bot"> </div>
+                <div class="profile-pic-area user-img"> <img src="./images/robot-dark.svg" alt="Bot"> </div>
             </div>
             <div class="chat-message-content file-type-message contact-type">
                 <span class="display-file contact-logo">
@@ -191,7 +191,7 @@ function messageFunction() {
           <div class="chat-message agent-message bot-message">
             <div class="profile-pic">
               <div class="profile-pic-area user-img">
-                <img src="/assets/images/robot-dark.svg" alt="bot"/>
+                <img src="./images/robot-dark.svg" alt="bot"/>
               </div>
             </div>
             <div class="chat-message-content">
@@ -221,7 +221,7 @@ function messageFunction() {
           <div class="chat-message agent-message">
             <div class="profile-pic">
               <div class="profile-pic-area user-img">
-                <img src="/assets/images/agent.png" alt="agent"/>
+                <img src="./images/agent.png" alt="agent"/>
               </div>
             </div>
             <div class="chat-message-content">
@@ -236,7 +236,7 @@ function messageFunction() {
           <div class="chat-message agent-message">
             <div class="profile-pic">
               <div class="profile-pic-area user-img">
-                <img src="/assets/images/agent.png" alt="agent"/>
+                <img src="./images/agent.png" alt="agent"/>
               </div>
             </div>
             <div class="chat-message-content">
@@ -252,12 +252,12 @@ function messageFunction() {
           <div class="chat-message agent-message">
           <div class="profile-pic">
             <div class="profile-pic-area user-img">
-              <img src="/assets/images/agent.png" alt="agent"/>
+              <img src="./images/agent.png" alt="agent"/>
             </div>
           </div>
           <div class="chat-message-content file-type-message contact-type">
             <span class="display-file contact-logo">
-              <img src="/assets/images/genaric.svg"></span>
+              <img src="./images/genaric.svg"></span>
               <div class="contact-inner">
                 <span class="card-label">${message.body.additionalDetails.fileName}</span>
                 <span class="card-description">
@@ -275,7 +275,7 @@ function messageFunction() {
           <div class="chat-message user-message ">
             <div class="profile-pic">
               <div class="profile-pic-area user-img">
-                <img src="/assets/images/agent.png" alt="customer"/>
+                <img src="./images/agent.png" alt="customer"/>
               </div>
             </div>
             <div class="chat-message-content">
@@ -291,7 +291,7 @@ function messageFunction() {
           <div class="chat-message user-message ">
             <div class="profile-pic">
               <div class="profile-pic-area user-img">
-                <img src="/assets/images/agent.png" alt="customer"/>
+                <img src="./images/agent.png" alt="customer"/>
               </div>
             </div>
             <div class="chat-message-content">
@@ -307,12 +307,12 @@ function messageFunction() {
           <div class="chat-message user-message ">
           <div class="profile-pic">
             <div class="profile-pic-area user-img">
-              <img src="/assets/images/agent.png" alt="customer"/>
+              <img src="./images/agent.png" alt="customer"/>
             </div>
           </div>
             <div class="chat-message-content file-type-message contact-type">
               <span class="display-file contact-logo">
-                <img src="/assets/images/genaric.svg"></span>
+                <img src="./images/genaric.svg"></span>
               <div class="contact-inner">
                 <span class="card-label">${message.body.additionalDetails.fileName}</span>
                 <span class="card-description">
